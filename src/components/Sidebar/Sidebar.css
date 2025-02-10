@@ -1,0 +1,40 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #282c34; /* Negro de React */
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3); /* Sombra ligera para separar visualmente del contenido */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #61dafb; /* Celeste de React para el texto del menú */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+  }
+  
+  .sidebar li:hover {
+    background-color: #383e47; /* Un tono de negro ligeramente más claro al hacer hover */
+    color: #ffffff; /* Texto blanco al hacer hover */
+  }
+  
+  .sidebar li.active {
+    background-color: #61dafb; /* Celeste para el ítem activo */
+    color: #282c34; /* Texto negro para el ítem activo */
+  }
+  
+  .sidebar li.active:hover {
+    background-color: #61dafb; /* Mantiene el color celeste al hacer hover en el activo */
+    color: #282c34; /* Mantiene el texto negro al hacer hover en el activo */
+  }

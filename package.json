@@ -1,0 +1,29 @@
+{
+  "name": "blog-react",
+  "homepage": "https://vazquez-ernesto.github.io/blog-react/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-syntax-highlighter": "^15.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "babel-loader": "^9.2.1",
+    "gh-pages": "^5.0.0",
+    "vite": "^6.1.0"
+  }
+}
